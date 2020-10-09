@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background-color: #EFF7FA;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  background-color: #5085A5;
+  color: white;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.banner {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner img {
+  width: 24.8%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.btn {
+  margin: 10px;
+  display: block;
+  align-self: center;
+  width: 80%;
+  line-height: 50px;
+  color: white;
+  background-color: #8FC1E3;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #EFF7FA;
+}
+
+.product {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 50px;
+  margin-top: 0;
+  padding: 25px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #8FC1E3;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  margin-top: 10px;
+}
+
+.product a {
+  background-color: #5085A5;
+}
+
+.description {
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #EFF7FA;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  color: #5085A5;
+}
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .content {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    max-width: 75rem;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .row {
+    flex-flow: row;
+  }
+
+  .product {
+    width: 25%;
+  }
+
+}
